@@ -4,46 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkpoint</title>
+    <link rel="icon" href="image/Luck.jpg">
+    <link rel="stylesheet" href="./css/checkpoint.css">
 </head>
 <body>
-    <!-- NavBar Vertical -->
+    <header>
+        <h1> My Checkpoint</h1>
+    <!-- NavBar -->
     <nav>
-        <ul>
-            <a href="home"><li>Home</li></a>
-            <a href="about"><li>About</li></a>
-            <a href="work"><li>Work</li></a>
-            <a href="resume"><li>Resume</li></a>
-            <a href="contact"><li>Contact</li></a>
+        <ul class="NavBar">
+            <a href="#home"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#work"><li>Work</li></a>
+            <a href="#resume"><li>Resume</li></a>
+            <a href="#contact"><li>Contact</li></a>
         </ul>
     </nav>
+    <img src="image/fantastic-seascape-with-ripples.jpg" alt="">
+    </header>
+
     <!-- Section about -->
-    <section>
-            <h1>About</h1>
+    <section id="about">
+            <h2>About</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sed repellendus,<br>ut dolores debitis ipsam rerum maxime tempore magni ad blanditiis similique unde, sequi hic ab vitae. Eligendi, delectus dolor?</p>
-            <video controls autoplay src="video/Ziak et Kerchak en live au Zénith 🔥💥.mp4"></video>
+            <img src="image/0ee8148d4b8454493341b3fd0a2315a6.jpg" alt="">
     </section>
 
-    <section>
-        <h1>Work</h1>
+    <!-- Section Work -->
+    <section id="work">
+        <h2>Work</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iste illum vero similique. Minus quisquam, adipisci eos voluptatum neque inventore molestias ea,<br> ratione in laborum nihil facere dolorem iste accusantium?</p>
+        <img src="image/1241d5c1558d028dbfa3b158e3909e62.jpg" alt="">
     </section>
     
-    <section>
-        <h1>Resume</h1>
+    <!-- Section Resume -->
+    <section id="resume">
+        <h2>Resume</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aspernatur cumque id, quas, corrupti,<br>saepe eligendi qui nesciunt voluptatem accusamus nulla inventore! Earum modi minus illo similique accusamus ipsum in?</p>
+        <img src="image/fabb3e2f615b4532af6a405ba2bc51a5.jpg" alt="">
     </section>
 
-    <section>
-        <h1>Contact</h1>
-    <form>
-        <input type="text" placeholder="Nom"/>
-        <input type="text" placeholder="Prenoms">
-        <input type="email" placeholder="Entrez votre adresse email"/>
-        <input type="password" placeholder="*********"/>
-        <input type="tel" placeholder="Entrez votre numero de telephone"/>
-        <input type="submit" value="Envoyer"/>
-    </form>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <div>
+                <label for="name">Nom :</label>
+                <input type="text" placeholder="Votre nom"/>
+            </div>
+            <div>
+                <label for="name">Prénoms :</label>
+                <input type="text" placeholder="Vos prenoms"/>
+            </div>
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" placeholder="Entrez votre adresse email"/>
+            </div>
+            <div>
+                <label for="numero">Téléphone :</label>
+                <input type="tel" placeholder="Entrez votre numero de telephone"/>
+            </div>
+            <div>
+                <label for="message">Description</label>
+                <textarea id="message" cols="70" rows="10"></textarea>
+            </div>
+            <div>
+                <button type="submit">Envoyer</button>
+            </div>    
+        </form>
     </section>
+
+    <footer>
+        <div>
+            <h3>Ceci est mon portfolio</h3>
+            <h2>---------------     Pour tout renseignement contactez moi sur whatsapp au 07 08 88 64 92     -----------------</h2>
+            <h5>credit by Ken</h5>
+        </div>
+    </footer>
 
 </body>
 </html>
